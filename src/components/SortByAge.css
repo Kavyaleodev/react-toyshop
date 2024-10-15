@@ -1,0 +1,35 @@
+.sort-by-age-container {
+    text-align: center;
+  }
+  /* ImageSlider.css */
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.image-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .image-slider-container img {
+    max-width: 100%;    /* Responsive width */
+    max-height: 400px;  /* Limit height */
+    object-fit: cover;   /* Cover area without distortion */
+  }
+
+  
+  .slider-image {
+    min-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  .slider-image.active {
+    border: 2px solid blue; /* Optional: Highlight the active image */
+  }
+  

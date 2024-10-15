@@ -1,0 +1,110 @@
+body {
+  background-color: #f8f9fa; 
+  font-family: 'Arial', sans-serif; 
+}
+
+.navbar {
+  margin-bottom: 20px; 
+  height: 100px; 
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.toy {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: 20px; 
+}
+
+.h1 {
+  font-size: 2rem;
+}
+
+.toy img {
+  height: 280px; 
+}
+
+.card {
+  margin: 10px; 
+  transition: transform 0.2s; 
+  border: 1px solid #ced4da; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: #ffffff; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+  border-top-left-radius: 5px; 
+  border-top-right-radius: 5px; 
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.d-flex {
+  margin-top: -20px;
+}
+
+.container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  height: 45px;
+}
+
+.button-buy {
+  background-color: #d1166d; 
+  border: none; 
+  color: white; 
+  margin-top: 10px; 
+}
+
+.button-buy:hover {
+  background-color: #c7156e; 
+}
+
+.modal-body {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.modal-footer {
+  justify-content: space-between; 
+}
+
+.video-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:40px;
+}
+
+.video-container img{
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+.shopby{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}

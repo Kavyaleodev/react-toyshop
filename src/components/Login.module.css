@@ -1,0 +1,71 @@
+.loginContainer {
+  position: relative; /* Ensure relative positioning for the close button */
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-container {
+  display: flex;
+}
+
+.close-button-container {
+  position: absolute;
+  z-index: 0; /* Ensure it stays above other elements */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.toggleButton {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  color: #007bff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.toggleButton:hover {
+  text-decoration: underline;
+}
+
+.message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}

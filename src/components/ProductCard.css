@@ -1,0 +1,67 @@
+/* ProductCard.css */
+
+.card {
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transition for hover effect */
+    background-color: #ffffff; /* Card background color */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+    border-top-left-radius: 8px; /* Rounded corners for top-left */
+    border-top-right-radius: 8px; /* Rounded corners for top-right */
+  }
+  
+  .card-body {
+    padding: 15px 10px; /* Padding around card content */
+    text-align: center; /* Center align text */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Title font size */
+    margin-bottom: 0.5rem; /* Space below title */
+  }
+  
+  .card-text {
+    color: #6c757d; /* Muted text color for description */
+    margin-bottom: 1rem; /* Space below description */
+  }
+  
+  .button-buy, .btn-primary {
+    width: 100%; /* Full width buttons */
+    margin-top: 10px; /* Space above buttons */
+  }
+  
+  .button-buy {
+    background-color: #d1166d; /* Button color */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+  }
+  
+  .button-buy:hover {
+    background-color: #c7156e; /* Button color on hover */
+  }
+  
+.buy-cart{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Full width on small screens */
+      margin-bottom: 20px; /* Space between cards */
+    }
+  }
+  
